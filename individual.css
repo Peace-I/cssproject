@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eaf8f4;
+}
+
+.desktop-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.left-section {
+  width: 40%;
+  padding: 20px;
+  text-align: left;
+}
+
+.logo {
+  width: 50px;
+}
+
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  color: #666;
+}
+
+.input-group {
+  display: flex;
+  gap: 50px;
+}
+
+.input-group div {
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #19a68c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #148a6e;
+}
+
+.terms {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.terms a {
+  color: #19a68c;
+  text-decoration: none;
+}
+
+.mobile-view {
+  display: none;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: block;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+}

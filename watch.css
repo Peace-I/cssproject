@@ -1,0 +1,60 @@
+body {
+  background-color: #b1a7d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  background: white;
+  width: 350px;
+  border-radius: 10px;
+  overflow: visible;
+}
+
+.banner {
+  background-color: #f8de7e;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: -15px;
+}
+
+.watch-image {
+  width: 100%;
+  display: block;
+}
+
+.content {
+  padding: 15px;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 5px 0;
+}
+
+h2 span {
+  font-size: 14px;
+  color: gray;
+}
+
+p {
+  font-size: 14px;
+  color: black;
+  line-height: 1.4;
+}

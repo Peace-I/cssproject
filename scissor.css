@@ -1,0 +1,526 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.auth-buttons .login {
+    color: #333;
+}
+
+.auth-buttons .try-free {
+    background-color: #007bff;
+    color: #fff;
+}
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero .highlight {
+    color: #007bff;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+}
+
+.cta-buttons .sign-up {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.cta-buttons .learn-more {
+    background-color: #fff;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.statistics {
+    background-color: #fff;
+    padding: 50px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statistics h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.statistics .highlight {
+    color: #007bff;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat {
+    text-align: center;
+    flex: 1;
+    min-width: 150px;
+    margin: 20px;
+}
+
+.stat h3 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+
+2
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #000000;
+}
+
+.header .highlight {
+    color: #007bff;
+}
+
+.header p {
+    font-size: 1em;
+    color: #666666;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.feature .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.feature h2 {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #666666;
+}
+
+.footer {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.footer h2 {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.footer .highlight {
+    color: #007bff;
+}
+
+.footer p {
+    font-size: 1em;
+    color: #666666;
+}
+
+
+
+3
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pricing-container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #007bff;
+}
+
+p {
+    color: #666;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.plan {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.plan .price {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin: 10px 0;
+    color: #666;
+}
+
+.plan.basic {
+    background-color: #f0f8ff;
+}
+
+.plan.professional {
+    background-color: #001f3f;
+    color: #fff;
+}
+
+.plan.professional ul li {
+    color: #fff;
+}
+
+.plan.teams {
+    background-color: #f0f8ff;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+4
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.url-shortener {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.url-shortener input, 
+.url-shortener select, 
+.url-shortener button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.url-shortener button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.url-shortener button:hover {
+    background: #0056b3;
+}
+
+.url-shortener p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.url-shortener a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+.faq {
+    background: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.faq-question .icon {
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+5
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.footer {
+    background: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-brand {
+    flex: 1;
+    min-width: 200px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-links {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column ul li {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #666;
+}
