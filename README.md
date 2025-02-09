@@ -1,2 +1,2 @@
 # cssproject
-A repository of containing projects that applies CSS. This project highlights my experience in writing CSS. Each file is has different projects, along wit its unique challenges.
+A repository containing projects that apply CSS. This project highlights my experience in writing CSS. Each file has different projects, along with its unique challenges.
